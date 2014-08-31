@@ -6,7 +6,7 @@ summary:    Configurando seu DNS do registr.br para apontar para uma aplicação
 categories: heroku
 ---
 
-![heroku](/pixyll/images/2012-04-26-registro-br-e-heroku-configurando-dns/heroku.jpg)
+![heroku](/images/2012-04-26-registro-br-e-heroku-configurando-dns/heroku.jpg)
 
 Hoje existem inúmeras plataformas que você pode escolher para hospedar
 sua aplicação e inúmeras questões que você deve levar em consideração na
@@ -51,7 +51,7 @@ registro (domínio) que deseja efetuar a configuração, na opção *“DNS”*
 deixe selecionada a opção *“Utilizar os servidores DNS do Registro.br”*
 e em seguida clique em *“Salvar e Editar DNS”*
 
-![heroku](/pixyll/images/2012-04-26-registro-br-e-heroku-configurando-dns/registrobr-dns-menu.png)
+![heroku](/images/2012-04-26-registro-br-e-heroku-configurando-dns/registrobr-dns-menu.png)
 
 Na tela seguinte adicione 6 registros novos (clicando na opção *“+
 Record”*) e preencha o tipo como ***“A”*** para todos eles e coloque um
@@ -65,7 +65,7 @@ e outro com o nome *“www”*, conforme a imagem abaixo
 174.129.212.2
 {% endhighlight %}
 
-![heroku](/pixyll/images/2012-04-26-registro-br-e-heroku-configurando-dns/registrobr-zonas.png)
+![heroku](/images/2012-04-26-registro-br-e-heroku-configurando-dns/registrobr-zonas.png)
 
 ## Registro de Subdomínio
 
@@ -79,11 +79,11 @@ configuração, na opção *“DNS”* deixe selecionada a opção *“Utilizar 
 servidores DNS do Registro.br”* e em seguida clique em *“Salvar e Editar
 DNS”*
 
-![heroku](/pixyll/images/2012-04-26-registro-br-e-heroku-configurando-dns/registrobr-dns-menu.png)
+![heroku](/images/2012-04-26-registro-br-e-heroku-configurando-dns/registrobr-dns-menu.png)
 
 Na tela seguinte adicione um registro clicando em *“+Record”*, prencha o seu subdominio no primeiro campo, mude o tipo para `CNAME` e no campo dados preencha com o endereço do seu aplicativo, e atenção: o endereço é sem `http://` ou `https://`
 
-![heroku](/pixyll/images/2012-04-26-registro-br-e-heroku-configurando-dns/registrobr-editar-zona.png)
+![heroku](/images/2012-04-26-registro-br-e-heroku-configurando-dns/registrobr-editar-zona.png)
 
 Em seguida repita esse processo para cada subdomínio novo que deseja cadastrar.
 
@@ -93,7 +93,7 @@ A configuração no heroku é extremamente simples, e necessária para que os se
 
 Para fazer essa configuração, vá para os detalhes da sua aplicação no painel do heroku e adicione o seu dominio na lista de domains
 
-![heroku](/pixyll/images/2012-04-26-registro-br-e-heroku-configurando-dns/heroku-add-domain.png)
+![heroku](/images/2012-04-26-registro-br-e-heroku-configurando-dns/heroku-add-domain.png)
 
 Você pode adicionar um * antes do domínio para que a sua aplicação do heroku responda a qualquer chamada, independente do subdomínio, ou adicionar cada um especificamente, como:
 
