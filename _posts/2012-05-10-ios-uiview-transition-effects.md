@@ -6,7 +6,7 @@ summary:    How to push/pop iOS UINavigationControllers using other animations b
 categories: ios
 ---
 
-![ios-animation](images/2012-05-10-ios-uiview-transition-effects/ios_animation.png)
+![ios-animation](/images/2012-05-10-ios-uiview-transition-effects/ios_animation.png)
 
 I have seen lots of people asking on how to push/pop UINavigationControllers using other animations besides the default one, like flip or curl.
 
@@ -80,7 +80,7 @@ I believe you noticed that the transitions I showed were all `UIView` transition
 
 A good example of these flip transitions being used for `UIView`s only is inside of [Google Places’s App](https://web.archive.org/web/20130525075242/https://itunes.apple.com/us/app/google-places/id406513617?mt=8) when you tap to change the places view mode from map to list (and vice-versa)
 
-![google-placs-app](images/2012-05-10-ios-uiview-transition-effects/googleplacesapp.png)
+![google-placs-app](/images/2012-05-10-ios-uiview-transition-effects/googleplacesapp.png)
 
 ---
 
