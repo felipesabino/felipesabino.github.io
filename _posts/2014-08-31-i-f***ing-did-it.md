@@ -16,9 +16,9 @@ Geeky as I am, I decided to share some technicalities about why I chose [Jekyll]
 
 ## Jekyll and Github
 
-I am so surprised to see how technically simple it was have this blog up and running, but how hard it was to fill it up with (at least some) content. If you thinking about your blog, here are soe thoughts on why I chose Jekyll and Github.
+I am so surprised to see how technically simple it was have this blog up and running, but how hard it was to fill it up with (at least some) content. 
 
-After some basic research trying to find the easiest\*, fastest and cheapest way possible to have a blog system, I end up sticking with the [Jekyll](jekyllrb.com) + [Github](https://github.com) solution and here are some reasons why:
+After some basic research trying to find the easiest\*, fastest and cheapest way possible to have a blog system, I end up sticking with the [Jekyll](jekyllrb.com) + [Github](https://github.com) solution. If you thinking about having your own blog, here are some thoughts on why I chose Jekyll and Github:
 
 ### Static content only
 
