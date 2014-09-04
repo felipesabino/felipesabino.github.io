@@ -10,7 +10,7 @@ categories: blog
 
 I have been talking about having my web site/blog it's been months, may be years, and now here it is!
 
-I think the last drop in my procrastination bucket was when I accepted [@mauehara](https://twitter.com/mauehara)'s challenge on [gofuckingdoit.com](http://gofuckingdoit.com), meaning that I would have to pay cash $$ if I didn't have my website (with an [*about me*](http://felipe.sabino.me/about/) page) up and running within 2 weeks and well, it worked.
+I think the last drop in my procrastination bucket was when I accepted [@mauehara](https://twitter.com/mauehara)'s challenge on [gofuckingdoit.com](http://gofuckingdoit.com), meaning that I would have to pay cash $$ if I didn't have my website (with an [*about me*](http://felipe.sabino.me/about/) page) up and running within 2 weeks and well, [it worked!](https://gofuckingdoit.com/result/9db76259bb442fd0/)
 
 Geeky as I am, I decided to share some technicalities about why I chose [Jekyll](jekyllrb.com) and end up running this page for free on [Github](https://github.com).
 
